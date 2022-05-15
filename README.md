@@ -54,7 +54,7 @@ Here are the steps to follow in order to correctly set up your computer to run t
 
 10. Once your notebook has been created, click on the link below to see the source code to the car plate recognition program (explanations to the code are included as comments in the source code).
 
-      https://github.com/chenw7/Simple-Face-Tracking/blob/main/Face-Tracking.py
+      https://github.com/chenw7/Car-Plate-Recognition/blob/main/License%20Plate%20Recognition.py
         
 11. Install the necessary libraries to run the program using pip (in your terminal). Enter the following commands in your terminal.
 
@@ -80,11 +80,22 @@ Here are the steps to follow in order to correctly set up your computer to run t
         
        If an error message does not appear, you can proceed onto the next step.
         
-13. Copy the code (provided in step 10) into jupyter notebook and pay attention to line 14. Images of the license plate should be displayed under your jupyter notebook (grayscale image of car, noise-reduced car image, cropped out license plate...)
+13. Copy the code (provided in step 10) into jupyter notebook and pay attention to line 14. 
+<img width="401" alt="Screen Shot 2022-05-15 at 3 41 01 PM" src="https://user-images.githubusercontent.com/91576538/168462504-a3ac8d19-fb2b-4f8c-952f-fffe6d4409a0.png">
+
+The line contains a reference to an image named "plate1.jpg" which should be stored in the same folder as your program (as demonstrated in the following). 
+<img width="256" alt="Screen Shot 2022-05-15 at 3 43 58 PM" src="https://user-images.githubusercontent.com/91576538/168462606-22ed843f-f781-4978-8756-2d99e4f7b81b.png">
+
+Modify line 14 as needed and that will essentially be the only change you will need to make to the code provided.
 
 
-14. 
+14. Now that you have stored the images in the same folder as the program and initialized the program as needed, execute the program. The license plate should be identified and images of the license plate should be displayed (grayscale image of car, noise-reduced car image, cropped out license plate...).
 
-14. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
+15. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
 
-Display results should resemble the following.
+In my example, I used the following image as my license plate.
+
+![plate1](https://user-images.githubusercontent.com/91576538/168462633-e1b05a56-05bf-4eeb-b7bb-32a56a980fce.jpeg)
+
+
+After the execution of the program, here are the images that were printed.
