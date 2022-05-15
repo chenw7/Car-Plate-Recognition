@@ -101,6 +101,7 @@ In my example, I used the following image as my license plate.
 ![plate1](https://user-images.githubusercontent.com/91576538/168462633-e1b05a56-05bf-4eeb-b7bb-32a56a980fce.jpeg)
 
 After the execution of the program, here are the images that were printed.
+
 <img width="348" alt="Screen Shot 2022-05-15 at 3 46 32 PM" src="https://user-images.githubusercontent.com/91576538/168462752-46dd5c5c-56f9-4ad9-8814-a0b17f2987b1.png">
 
 <img width="342" alt="Screen Shot 2022-05-15 at 3 46 40 PM" src="https://user-images.githubusercontent.com/91576538/168462754-00e7cd73-c82d-4d3b-a38c-1cdb60ab1c0a.png">
