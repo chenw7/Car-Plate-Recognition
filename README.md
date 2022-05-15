@@ -83,7 +83,8 @@ Here are the steps to follow in order to correctly set up your computer to run t
 13. Copy the code (provided in step 10) into jupyter notebook and pay attention to line 14. 
 <img width="401" alt="Screen Shot 2022-05-15 at 3 41 01 PM" src="https://user-images.githubusercontent.com/91576538/168462504-a3ac8d19-fb2b-4f8c-952f-fffe6d4409a0.png">
 
-The line contains a reference to an image named "plate1.jpg" which should be stored in the same folder as your program (as demonstrated in the following). 
+The line contains a reference to an image named "plate1.jpg" which should be stored in the same folder as your program (as demonstrated in the following).
+
 <img width="256" alt="Screen Shot 2022-05-15 at 3 43 58 PM" src="https://user-images.githubusercontent.com/91576538/168462606-22ed843f-f781-4978-8756-2d99e4f7b81b.png">
 
 Modify line 14 as needed and that will essentially be the only change you will need to make to the code provided.
@@ -93,9 +94,19 @@ Modify line 14 as needed and that will essentially be the only change you will n
 
 15. If errors regarding cv2 or any of the other modules still exist, search for solutions on stackoverflow (most solutions to your problems can be found).
 
+Output:
+
 In my example, I used the following image as my license plate.
 
 ![plate1](https://user-images.githubusercontent.com/91576538/168462633-e1b05a56-05bf-4eeb-b7bb-32a56a980fce.jpeg)
 
-
 After the execution of the program, here are the images that were printed.
+<img width="348" alt="Screen Shot 2022-05-15 at 3 46 32 PM" src="https://user-images.githubusercontent.com/91576538/168462752-46dd5c5c-56f9-4ad9-8814-a0b17f2987b1.png">
+
+<img width="342" alt="Screen Shot 2022-05-15 at 3 46 40 PM" src="https://user-images.githubusercontent.com/91576538/168462754-00e7cd73-c82d-4d3b-a38c-1cdb60ab1c0a.png">
+
+<img width="343" alt="Screen Shot 2022-05-15 at 3 47 02 PM" src="https://user-images.githubusercontent.com/91576538/168462758-70ae0bf9-9604-4ea6-9018-c21153c2dd02.png">
+
+<img width="377" alt="Screen Shot 2022-05-15 at 3 47 08 PM" src="https://user-images.githubusercontent.com/91576538/168462760-ad1f8e3b-c654-4091-af27-f1a73e325653.png">
+
+<img width="340" alt="Screen Shot 2022-05-15 at 3 47 15 PM" src="https://user-images.githubusercontent.com/91576538/168462762-3f21d02c-7e9a-43b5-8496-aec150668be4.png">
